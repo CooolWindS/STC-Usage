@@ -123,7 +123,8 @@ log_extract
 ```
 
 
-### Comparison of results
+Comparison of results
+---
 In addition to the output of the above two parts, there will be a comparative result information in this part. Compare whether the embedded and extracted secret messages are the same.
 
 Use the following,
@@ -135,7 +136,9 @@ In addition to the output record files, statistical results will also be display
 log_compare_message
 ```
 
-### The complete testing
+
+The complete testing
+---
 1. Check all parameters are defined correctly in
     ```
     global_var.py
