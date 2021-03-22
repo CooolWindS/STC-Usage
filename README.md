@@ -37,6 +37,8 @@ If you're using pip:
 If you're using other ways to manage your package:
 
     Please ensure that the above packages are installed correctly
+    
+If there are other missing packages, please complete the installation.
 
 Usage
 ---
