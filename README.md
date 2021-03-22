@@ -44,6 +44,23 @@ Usage
 ---
 
 ### Embed
+1. Check all parameters are defined correctly in
+    ```
+    global_var.py
+    ```
+2. Put all images want to embed by STC in
+    ```
+    /files/cover/
+    ```
+3. Then you can start embedding
+    ```
+    $ python embed_interface.py
+    ```
+4. You can also embed a single picture
+    ```
+    $ python embed.py
+    ```
+   (Make sure that the information in the main function is correct.)
 
 
 ### Extract
