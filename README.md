@@ -59,15 +59,42 @@ Usage
 4. You can also embed a single picture
     ```
     $ python embed.py
-    ```
    (Make sure that the information in the main function is correct.)
+    ```
 
 
 ### Extract
-
+1. Check all parameters are defined correctly in
+    ```
+    global_var.py
+    ```
+2. Put all images want to extract message in
+    ```
+    /files/stego/
+    ```
+3. Then you can start extracting
+    ```
+    $ python extract_interface.py
+    ```
+4. You can also extract a single picture
+    ```
+    $ python extract.py
+   (Make sure that the information in the main function is correct.)
+    ```
 
 ### The complete testing
-
+1. Check all parameters are defined correctly in
+    ```
+    /lib_py/parameter.py
+    ```
+2. Put all images want to embed by STC in
+    ```
+    /files/cover/
+    ```
+3. Then you can start continuous testing
+    ```
+    $ python STC_interface.py
+    ```
 
 Output
 ---
