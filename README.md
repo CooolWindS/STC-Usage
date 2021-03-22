@@ -82,10 +82,63 @@ Usage
    (Make sure that the information in the main function is correct.)
     ```
 
+Output
+---
+
+### Embed
+According to the picture format and channel selection,
+
+```
+stego picture will be placed in one or all of the following folder:
+files/stego/R/
+files/stego/G/
+files/stego/B/
+files/stego/RGB/
+```
+```
+the embedded message used will be placed in the following folder:
+files/message_embed/R/
+files/message_embed/G/
+files/message_embed/B/
+files/message_embed/RGB/
+```
+```
+In addition, if enabled, a log file will be generated to record the process
+log_embed.log
+```
+
+
+### Extract
+According to the picture format and channel selection,
+```
+the extracted secret message will be placed in the following folder:
+files/message_extract/R/
+files/message_extract/G/
+files/message_extract/B/
+files/message_extract/RGB/
+```
+```
+In addition, if enabled, a log file will be generated to record the process
+log_extract
+```
+
+
+### Comparison of results
+In addition to the output of the above two parts, there will be a comparative result information in this part. Compare whether the embedded and extracted secret messages are the same.
+
+Use the following,
+```
+$ python compare_message.py
+```
+In addition to the output record files, statistical results will also be displayed on the screen.
+```
+log_compare_message
+```
+
 ### The complete testing
 1. Check all parameters are defined correctly in
     ```
-    /lib_py/parameter.py
+    global_var.py
     ```
 2. Put all images want to embed by STC in
     ```
@@ -95,17 +148,6 @@ Usage
     ```
     $ python STC_interface.py
     ```
-
-Output
----
-
-### Embed
-
-
-### Extract
-
-
-### The complete testing
 
 
 Reference
