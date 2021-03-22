@@ -139,18 +139,18 @@ log_compare_message
 
 The complete testing
 ---
-1. Check all parameters are defined correctly in
-    ```
-    global_var.py
-    ```
-2. Put all images want to embed by STC in
-    ```
-    /files/cover/
-    ```
-3. Then you can start continuous testing
-    ```
-    $ python STC_interface.py
-    ```
+    1. Check all parameters are defined correctly in
+        ```
+        global_var.py
+        ```
+    2. Put all images want to embed by STC in
+        ```
+        /files/cover/
+        ```
+    3. Then you can start continuous testing
+        ```
+        $ python STC_interface.py
+        ```
 
 
 Reference
