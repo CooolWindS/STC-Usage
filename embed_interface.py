@@ -59,7 +59,7 @@ def embed_interface():
 	print('Embed start...\n')
 
 
-	for i in tqdm(range(_),  file=sys.stdout, position=0, leave=True):
+	for i in tqdm(range(data_size),  file=sys.stdout, position=0, leave=True):
 
 		# Cover image
 		# ex. color_001.bmp
