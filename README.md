@@ -43,7 +43,7 @@ If there are other missing packages, please complete the installation.
 Usage
 ---
 
-### Embed
+#### Embed
 1. Check all parameters are defined correctly in
     ```
     global_var.py
@@ -63,7 +63,7 @@ Usage
     ```
 
 
-### Extract
+#### Extract
 1. Check all parameters are defined correctly in
     ```
     global_var.py
