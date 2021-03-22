@@ -85,7 +85,7 @@ Usage
 Output
 ---
 
-### Embed
+#### Embed
 According to the picture format and channel selection,
 
 ```
@@ -108,7 +108,7 @@ log_embed.log
 ```
 
 
-### Extract
+#### Extract
 According to the picture format and channel selection,
 ```
 the extracted secret message will be placed in the following folder:
@@ -139,18 +139,18 @@ log_compare_message
 
 The complete testing
 ---
-    1. Check all parameters are defined correctly in
-        ```
-        global_var.py
-        ```
-    2. Put all images want to embed by STC in
-        ```
-        /files/cover/
-        ```
-    3. Then you can start continuous testing
-        ```
-        $ python STC_interface.py
-        ```
+1. Check all parameters are defined correctly in
+    ```
+    global_var.py
+    ```
+2. Put all images want to embed by STC in
+    ```
+    /files/cover/
+    ```
+3. Then you can start continuous testing
+    ```
+    $ python STC_interface.py
+    ```
 
 
 Reference
