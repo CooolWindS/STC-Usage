@@ -1,4 +1,4 @@
-# STC-for-python
+# STC Usage
 
 A simple way to use Syndrome Trellis Codes Steganography.
 Support linux system and windows system.
