@@ -25,7 +25,7 @@ payload = 1.0
 #
 # 256*256*2bpp/8 = 16384 chars
 #msg_len = 16384
-msg_len = 8100
+#msg_len = 8100
 
 #
 log_file = None
